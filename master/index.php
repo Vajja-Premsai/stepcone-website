@@ -36,11 +36,11 @@
     </div>
     <!-- Preloader Start -->
     <?php
-	include './includes/chatbot.php';
+	include 'chatbot.php';
 	?>
 	<!-- Navbar -->
 	<?php
-	include './includes/Newnavbar.php';
+	include 'Newnavbar.php';
 	?>
 <header>
     <!--? Header Start -->
