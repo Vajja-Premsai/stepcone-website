@@ -35,6 +35,13 @@
         </div>
     </div>
     <!-- Preloader Start -->
+    <?php
+	include './includes/chatbot.php';
+	?>
+	<!-- Navbar -->
+	<?php
+	include './includes/Newnavbar.php';
+	?>
 <header>
     <!--? Header Start -->
     <div class="header-area">
