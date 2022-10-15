@@ -34,11 +34,9 @@
             </div>
         </div>
     </div>
-    <!-- Preloader Start -->
-    <?php
-	include 'chatbot.php';
-	?>
-	<!-- Navbar -->
+
+
+	
 	<?php
 	include 'Newnavbar.php';
 	?>
