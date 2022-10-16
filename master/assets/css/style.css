@@ -2738,7 +2738,7 @@ color: #000a2d;
     .slider-area .hero__caption {
         padding-bottom:200px;
         position:relative;
-        top: 70%;
+        top: 65%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 300px;
@@ -2757,7 +2757,7 @@ color: #000a2d;
     .slider-area {
         
         width: 100%;
-        height: 50vh;
+        height: 60vh;
     }
     
     .logo-gmr{
