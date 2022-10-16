@@ -2354,7 +2354,7 @@ hr {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .section-padding3 {
         padding-top: 60px;
-        padding-bottom: 0
+        padding-bottom: 0;
     }
 }
 
@@ -2703,10 +2703,65 @@ color: #000a2d;
     overflow: hidden;
     margin-bottom:200px;
 }
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px){
     .slider-area .hero__caption {
         padding-bottom:200px;
+        position:relative;
+        top: 60%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+       
+    }
+    .hero__caption h2{
+        font-size: 1.3rem;
+    }
+    .hero__caption h1{
+        font-size: 2.5rem;
+    }
+    .hero__caption .jan{
+        padding-top: 5px !important ;
+    }
+
+    .slider-area {
+        
+        width: 100%;
+        height: 50vh;
+    }
+    
+    .logo-gmr{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+    .slider-area .hero__caption {
+        padding-bottom:200px;
+        position:relative;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+       
+    }
+    .hero__caption h2{
+        font-size: 1.3rem;
+    }
+    .hero__caption h1{
+        font-size: 2.5rem;
+    }
+    .hero__caption .jan{
+        padding-top: 5px !important ;
+    }
+
+    .slider-area {
+        
+        width: 100%;
+        height: 50vh;
+    }
+    
+    .logo-gmr{
+        display: none;
     }
 }
 
@@ -2724,9 +2779,40 @@ color: #000a2d;
     letter-spacing: 0.05em
 }
 
-@media (max-width: 575px) {
+@media (max-width: 399px) {
     .slider-area .hero__caption span {
         font-size: 13px
+    }
+    .logo-gmr{
+        display: none;
+    }
+    .slider-area .hero__caption {
+        padding-bottom:200px;
+        position:relative;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+       
+    }
+    .hero__caption h2{
+        font-size: 1.1rem;
+    }
+    .hero__caption h1{
+        font-size: 2rem;
+    }
+    .hero__caption .jan{
+        padding-top: 5px !important ;
+    }
+
+    .slider-area {
+        
+        width: 100%;
+        height: 50vh;
+    }
+    
+    .logo-gmr{
+        display: none;
     }
 }
 
