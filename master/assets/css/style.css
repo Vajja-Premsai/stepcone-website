@@ -2738,31 +2738,54 @@ color: #000a2d;
     .slider-area .hero__caption {
         padding-bottom:200px;
         position:relative;
-        top: 65%;
-        left: 50%;
+        top: 80%;
+        left: 60%;
         transform: translate(-50%, -50%);
-        width: 300px;
+        width: 400px;
+        color: #fff;
        
     }
     .hero__caption h2{
         font-size: 1.3rem;
+        color: #fff;
     }
     .hero__caption h1{
         font-size: 2.5rem;
+        color: #fff !important;
     }
     .hero__caption .jan{
         padding-top: 5px !important ;
+
     }
 
     .slider-area {
+        height: 100vh;
+        background: url(../img/banner.png) no-repeat;
+        background-size: cover;
+        background-position: bottom right;
         
+        position: relative;
+        z-index: 1;
         width: 100%;
-        height: 60vh;
+    }
+    .slider-area:before{
+        content: "";
+        position: absolute;
+        box-sizing: border-box;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #000000;
+        opacity: 0.7   ;
+        z-index: -1;
     }
     
     .logo-gmr{
         display: none;
     }
+   
+    
 }
 
 .slider-area .hero__caption span {
