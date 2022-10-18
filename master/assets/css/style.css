@@ -2701,7 +2701,7 @@ color: #000a2d;
 
 .slider-area .hero__caption {
     overflow: hidden;
-    margin-bottom:200px;
+    
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){
     .slider-area .hero__caption {
@@ -2785,14 +2785,14 @@ color: #000a2d;
         display: none;
     }
    
-    
 }
 
 .slider-area .hero__caption span {
     font-size: 18px;
     font-family: "Sen", sans-serif;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    margin-top:20px;
     position: absolute;
     top:33%;
     left: 300px;
@@ -7018,4 +7018,18 @@ del {
     border: 1px solid #000a2d;
     padding: 40%;
 }
-
+.t1{
+    display: flex;
+    flex-direction: row;
+    margin-top: -30px;
+    margin-bottom: -80px;
+    letter-spacing: 1px;
+}
+.static h1{
+    font-size: 110px !important;
+}
+.dynamic{
+    text-transform: uppercase;
+    margin-top: 50px;
+    color: #000a2d !important;
+}
