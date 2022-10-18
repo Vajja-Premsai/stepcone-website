@@ -2785,14 +2785,15 @@ color: #000a2d;
         display: none;
     }
    
+    
 }
 
 .slider-area .hero__caption span {
     font-size: 18px;
     font-family: "Sen", sans-serif;
     font-weight: 600;
-    margin-bottom: 10px;
-    margin-top:20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
     position: absolute;
     top:33%;
     left: 300px;
@@ -7024,6 +7025,7 @@ del {
     margin-top: -30px;
     margin-bottom: -80px;
     letter-spacing: 1px;
+    font-weight: 600;
 }
 .static h1{
     font-size: 110px !important;
