@@ -7035,3 +7035,10 @@ del {
     margin-top: 50px;
     color: #000a2d !important;
 }
+.stepimg img{
+    position: absolute;
+    top:50%;
+    left: 40%;
+    height: 100px !important;
+    width: auto
+}
