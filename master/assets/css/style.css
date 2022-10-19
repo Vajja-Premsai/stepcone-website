@@ -2557,10 +2557,10 @@ padding: 5px 10px;
 border-radius: 4px;
 text-transform: uppercase;
 }
-.navbar-brand h2{
+.navbar-brand .st{
 font-family: 'Courier New', monospace;
 display: inline;
-font-size: 2 rem;
+font-size: 2rem !important;
 font-weight:900;
 }
 .top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover{
