@@ -7031,15 +7031,20 @@ del {
     width: auto
 }
 
+/**registration **/
+.regdesc{
+    text-align: center;
+}
 
 /**events style*/
-.flagship .title{
+.section .title{
     height:100px;
     padding: 140px 0px;
     background-color: #10285d;
 }
-.flagship .title h2{
+.section .title h2{
     color: #fff !important;
+    letter-spacing: 2px;
     text-transform: uppercase;
 }
 .grid {
