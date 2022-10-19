@@ -7030,3 +7030,15 @@ del {
     height: 100px !important;
     width: auto
 }
+
+
+/**events style*/
+.flagship .title{
+    height:100px;
+    padding: 140px 0px;
+    background-color: #10285d;
+}
+.flagship .title h2{
+    color: #fff !important;
+    text-transform: uppercase;
+}
