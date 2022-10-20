@@ -2724,17 +2724,18 @@ color: #000a2d;
     }
 
     .slider-area {
-        
         width: 100%;
         height: 50vh;
     }
-    
+    .top-navbar .gmr{
+        display: none;
+    }
     .logo-gmr{
         display: none;
     }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 767px) {
+@media only screen and (min-width: 250px) and (max-width: 767px) {
     .slider-area .hero__caption {
         padding-bottom:200px;
         position:relative;
@@ -2743,7 +2744,6 @@ color: #000a2d;
         transform: translate(-50%, -50%);
         width: 400px;
         color: #fff;
-       
     }
     .hero__caption h2{
         font-size: 1.3rem;
@@ -2757,28 +2757,8 @@ color: #000a2d;
         padding-top: 5px !important ;
 
     }
-
-    .slider-area {
-        height: 100vh;
-        background: url(../img/banner.png) no-repeat;
-        background-size: cover;
-        background-position: bottom right;
-        
-        position: relative;
-        z-index: 1;
-        width: 100%;
-    }
-    .slider-area:before{
-        content: "";
-        position: absolute;
-        box-sizing: border-box;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        background-color: #000000;
-        opacity: 0.7   ;
-        z-index: -1;
+    .top-navbar .gmr{
+        display: none;
     }
     
     .logo-gmr{
