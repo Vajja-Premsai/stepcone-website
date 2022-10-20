@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.header {
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+
+}
+.title {
+    height: 50vh;
+    border: 2px solid white;
+}
+.title p {
+    color: white;
+    text-align: center;
+    padding-top: 18vh;
+    font-size: 5vw;
+}
+
+.container {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chevron {
+    position: absolute;
+    width: 28px;
+    height: 8px;
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 0.5);
+    animation: move 3s ease-out infinite;
+    display: block;
+}
+
+.chevron:first-child {
+    animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+    animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 51%;
+    background: black;
+}
+
+.chevron:before {
+    left: 0;
+    transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+    right: 0;
+    width: 50%;
+    transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+    25% {
+        opacity: 1;
+
+    }
+
+    33% {
+        opacity: 1;
+        transform: translateY(30px);
+    }
+
+    67% {
+        opacity: 1;
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+    }
+}
+
+.event{
+    padding-left: 20px;
+}
+
+.event h3 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    color: black;
+    width: 160px;
+    margin-top: 75px;
+    white-space: nowrap;
+}
+
+.event h3:before {
+    background-color: #c50000;
+    content: '';
+    display: block;
+    height: 3px;
+    width: 75px;
+    margin-bottom: 30px;
+}
+
+.content p{
+    margin: 30px;
+}
+
+.content .buttons button{
+    padding: 1em;
+    width: 30%;
+    font-size: 1.5vw;
+    border: 3px solid #fab210;
+    background-color: #fab210;
+    border-radius: 15px;
+    margin: 1em;
+}
+.content .buttons button:hover{
+  background-color: #fff;
+  transition: all 1s linear ease-in-out;
+}
+.content .buttons button a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.tools .box{
+    width: 300px;
+    height: 100px;
+    margin-left: 5vw;
+    margin-bottom: 1em;
+    float: left;
+    border-right: 60px solid transparent;
+    border-top: 60px solid red;
+    border-left: 60px solid red;
+    border-bottom: 60px solid red;
+}
+
+.tools .box .text{
+    color: white;
+    text-align:left;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: -30px;
+}
+
+.co{
+    margin-top: 5em;
+    margin-left: 20px;
+}
+
+.person .profile{
+    width: 200px;
+    padding: 1.5em;
+    font-size: 80%;
+    margin-top: 5vh;
+    margin-left: 20px;
+    margin-right: 1em;
+    border:3px solid  #00327Aff;
+    border-radius: 50px;
+    background: linear-gradient(to right, #00327Aff 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.person .profile:hover{
+    color: #fff;
+    font-weight: 500;
+    border-radius: 50px;
+    background-position: left bottom;
+}
+.person .profile:hover a{
+    color: aqua;
+}
+.person .profile img{
+    width: 60px;
+    float: left;
+    margin-right: 1em;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.person .profile a{
+    text-decoration: none;
+    font-weight: 500;
+}

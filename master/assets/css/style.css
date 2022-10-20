@@ -7037,12 +7037,12 @@ del {
 }
 
 /**events style*/
-.section .title{
+.title{
     height:100px;
-    padding: 140px 0px;
+    padding: 100px 0px;
     background-color: #10285d;
 }
-.section .title h2{
+ .title h2{
     color: #fff !important;
     letter-spacing: 2px;
     text-transform: uppercase;
