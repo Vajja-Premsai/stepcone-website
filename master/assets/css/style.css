@@ -2538,7 +2538,7 @@ z-index: 10;
 }
 
 .top-navbar .navbar{
-padding: 10px 10px;
+padding: 0px 10px 0px 10px;
 position: fixed;
 width: 100%;
 transition: height .3s ease-out, background .3s ease-out, box-shadow .3s ease-out;
