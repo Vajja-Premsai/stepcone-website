@@ -2641,7 +2641,7 @@ color: #000a2d;
 
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+/* @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .slider-height {
         height: 700px
     }
@@ -2663,11 +2663,11 @@ color: #000a2d;
     .slider-height {
         height: 500px
     }
-}
+} */
 
 .slider-height2 {
     height: 450px;
-    background-size: cover
+    background-size: cover;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2697,69 +2697,87 @@ color: #000a2d;
     background-size: cover;
     width: 100%;
     height: 100vh;
+    margin-bottom: 10%;
+  
 }
+
 
 .slider-area .hero__caption {
     overflow: hidden;
-    
+   
 }
+
+
 @media only screen and (min-width: 768px) and (max-width: 991px){
     .slider-area .hero__caption {
-        padding-bottom:200px;
+        /* padding-bottom:200px;
         position:relative;
-        top: 60%;
-        left: 40%;
-        transform: translate(-50%, -50%);
-        width: 300px;
+        top: 45%; */
        
     }
     .hero__caption h2{
         font-size: 1.3rem;
     }
     .hero__caption h1{
-        font-size: 2.5rem;
+        /* font-size: 2.5rem; */
     }
     .hero__caption .jan{
         padding-top: 5px !important ;
     }
 
     .slider-area {
+        
         width: 100%;
-        height: 50vh;
+      
     }
-    .top-navbar .gmr{
-        display: none;
-    }
+    
     .logo-gmr{
         display: none;
     }
 }
 
-@media only screen and (min-width: 250px) and (max-width: 767px) {
+
+
+
+
+@media only screen and (min-width: 350px) and (max-width: 767px) {
     .slider-area .hero__caption {
-        padding-bottom:200px;
-        position:relative;
-        top: 80%;
-        left: 67%;
-        transform: translate(-50%, -50%);
-        width: 400px;
-        color: #fff;
+      
+        
     }
-    .hero__caption h2{
-        font-size: 1.3rem;
-        color: #fff;
-    }
+    .hero__caption h3{
+        font-size: 1.5rem;
+           }
     .hero__caption h1{
-        font-size: 2.5rem;
-        color: #fff !important;
+        font-size: 2.0rem !important;
+        line-height: 1.2
     }
     .hero__caption .jan{
         padding-top: 5px !important ;
 
     }
-    .top-navbar .gmr{
-        display: none;
+    
+    .slider-area {
+        height: 100vh;
+        background: url(../img/banner.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
     }
+
+    
+    /* .slider-area:before{
+        content: "";
+        position: absolute;
+        box-sizing: border-box;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #000000;
+        opacity: 0.7   ;
+        z-index: -1;
+    } */
     
     .logo-gmr{
         display: none;
@@ -2783,7 +2801,11 @@ color: #000a2d;
     letter-spacing: 0.05em
 }
 
-@media (max-width: 299px) {
+
+
+
+
+@media (max-width: 349px) {
     .slider-area .hero__caption span {
         font-size: 13px
     }
@@ -2791,28 +2813,22 @@ color: #000a2d;
         display: none;
     }
     .slider-area .hero__caption {
-        padding-bottom:200px;
+        /* padding-bottom:200px;
         position:relative;
         top: 65%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 300px;
-       
+        */
     }
     .hero__caption h2{
         font-size: 1.1rem;
     }
     .hero__caption h1{
-        font-size: 2rem;
+        /* font-size: 2rem; */
     }
     .hero__caption .jan{
         padding-top: 5px !important ;
-    }
-
-    .slider-area {
-        
-        width: 100%;
-        height: 60vh;
     }
     
     .logo-gmr{
@@ -2820,11 +2836,15 @@ color: #000a2d;
     }
 }
 
+
+
+
+/* 
 @media (max-width: 575px) {
     .slider-area .hero__caption span {
         padding-left: 66px
     }
-}
+} */
 /* 
 .slider-area .hero__caption span::before {
     position: absolute;
@@ -2850,10 +2870,10 @@ color: #000a2d;
     margin-bottom: 14px;
     color: #153243;
     line-height: 1.4;
-    margin-bottom: 57px
+    margin-bottom: 57px;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+/* @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .slider-area .hero__caption h1 {
         font-size: 60px;
         line-height: 1.2
@@ -2879,7 +2899,7 @@ color: #000a2d;
         font-size: 25px;
         line-height: 1.2
     }
-}
+} */
 
 .slider-area .hero__caption p {
     font-size: 18px;
