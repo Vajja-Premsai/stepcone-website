@@ -1,14 +1,4 @@
-// Ion.RangeSlider
-// version 2.1.7 Build: 371
-// Â© Denis Ineshin, 2017
-// https://github.com/IonDen
-//
-// Project page:    http://ionden.com/a/plugins/ion.rangeSlider/en.html
-// GitHub page:     https://github.com/IonDen/ion.rangeSlider
-//
-// Released under MIT licence:
-// http://ionden.com/a/plugins/licence-en.html
-// =====================================================================================================================
+
 
 ;(function(factory) {
     if (typeof define === "function" && define.amd) {
