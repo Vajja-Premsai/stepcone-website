@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="event.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        .event-title {
+            padding-top: 10vh;
+            padding-bottom: 10vh;
+            background: url("image/ppt.jpeg") no-repeat;
+            background-size: 100%;
+            background-position: center;
+            background-attachment: fixed;
+            position: relative;
+            z-index: 1;
+        }
+
+        .event-title:before {
+            content: "";
+            position: absolute;
+            box-sizing: border-box;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background-color: black;
+            opacity: 0.4;
+            z-index: -1;
+        }
+    </style>
+    <script>
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 400) {
+                $('.chevron').fadeOut(200);
+            } else {
+                $('.chevron').fadeIn(200);
+            }
+        });
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header"></div>
+    <div class="row event-title">
+        <div class="col-2"></div>
+        <div class="col-8 title" data-aos="zoom-out" data-aos-duration="2000">
+            <p>CHEMICAL PAPER PRESENTATION</p>
+        </div>
+        <div class="col-2"></div>
+    </div>
+    <div class="container">
+        <div class="chevron"></div>
+        <div class="chevron"></div>
+        <div class="chevron"></div>
+    </div>
+    <div class="row event" data-aos="fade-right">
+        <h3>TOPICS</h3>
+    </div>
+    <div class="row">
+        <div class="col-lg-7 col-md-12 col-sm-12 content" data-aos="fade-right">
+            <p>
+                <ol type="1">
+                    <li>.sustainable nano technologies</li>
+                    <li>carbon capture in sequestration</li>
+                    <li>Fule and battery technology</li>
+                    <li>Sustainable engery and Environment technology</li>
+                    <li>Environment friendly materials</li>
+                    <li>Role of AL and ML in chemical engineering</li>
+                    <li>Explain the Automation in chemical industry in future</li>
+                    <li>Pinch Technology</li>
+                    <li>Seperation Technology</li>
+                    <li>Stimulation and Design of chemical process</li>
+                     <li>Waste to wealth technology</li>
+                    <li>Chemical process scale up</li>
+                    <li>Biochemical process</li>
+                    <li>Alternative energy technology</li>
+                    <li> Energy harvesting</li>
+                
+               </ol>
+
+
+            </p>
+            <div class="buttons" data-aos="fade-up">
+                <button><a href="#">register</a></button>
+                <button><a href="#">download pdf</a></button>
+            </div>
+        </div>
+        <div class="col-lg-5 col-md-12 col-sm-12 tools">
+            <div class="box" data-aos="fade-left" data-aos-duration="1000">
+                <div class="text">prize money:<br>winner-Rs 30000/-</div>
+            </div>
+            <div class="box" data-aos="fade-left" data-aos-duration="1000">
+                <div class="text">Teamsize:<br>Individul</div>
+            </div>
+            <div class="box" data-aos="fade-left" data-aos-duration="1000">
+                <div class="text">registration fee:<br>Rs 150/-</div>
+            </div>
+        </div>
+        <div class="co">COORDINATORS</div>
+        <div class="row person">
+           
+            <div class="col-lg-3 col-md-6 col-sm-4 profile" data-aos="zoom-in">
+                <img src="image/men.png" alt="">CH. BHAVYASAi <br><a href="tel:9876543210">8309245622</a>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
